@@ -1,2 +1,3 @@
 #!/bin/bash
-(cd ~ && echo $PWD)
+cd $HOME
+echo "Current directory: $(pwd)"
